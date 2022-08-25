@@ -1,0 +1,69 @@
+main {
+  display: flex;
+}
+
+#greeting {
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: skyblue;
+  text-shadow: 0 0 5px white;
+  text-align: center;
+  margin: 0.1em;
+  padding: 0.1em;
+}
+#usernameInput {
+  width: 90%;
+  height: 5%;
+  margin: 0.1em;
+}
+.messageInput {
+  width: 90%;
+  height: 50%;
+  margin: 0.1em;
+}
+#tweetcontents {
+  font-size: 20px;
+  text-align: center;
+  background-color: skyblue;
+  color: white;
+  margin: 0.1em;
+  padding: 0.1em;
+  width: 100%;
+}
+#tweetButton {
+  background-color: skyblue;
+  border: 0;
+  color: white;
+  font-size: 15px;
+  padding: 0.2em;
+}
+#randomButton {
+  background-color: rgb(148, 228, 28);
+  border: 0;
+  color: white;
+  font-size: 15px;
+  padding: 0.2em;
+}
+
+.box1 {
+  float: left;
+  width: 33%;
+  height: 25em;
+  background-color: rgb(192, 192, 192);
+  padding: 0.4em;
+}
+
+.box2 {
+  float: right;
+  width: 65%;
+  height: 30em;
+}
+
+.tweetList {
+  padding: 7px;
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  height: 70px;
+  line-height: 20px;
+}
